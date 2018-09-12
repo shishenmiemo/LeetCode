@@ -1,12 +1,15 @@
-package _852_peakIndexInAMountainArray;
+package _561_arrayPartitionI;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Solution {
-	public int peakIndexInMountainArray(int[] A) {
-        int i = 1;
-        while(A[i] > A[i - 1])  i ++;
-        return i - 1;
+	public int arrayPairSum(int[] nums) {
+		int sum = 0;
+		Arrays.parallelSort(nums);
+		for(int i = 0; i < nums.length; i += 2)
+			sum += nums[i];
+        return sum;
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,18 +18,12 @@ public class Solution {
 		String[] strs = sc.nextLine().split(",");
 		int[] nums = new int[strs.length];
 		for(int i = 0; i < strs.length; i ++)  nums[i] = Integer.parseInt(strs[i]);
-		System.out.println(s.peakIndexInMountainArray(nums));
+		System.out.println(s.arrayPairSum(nums));
 	}
 
 }
 /*
-0,1,0
+1,4,3,2
 
-1
-*/
-
-/*
-0,2,1,0
-
-1
+4
 */
