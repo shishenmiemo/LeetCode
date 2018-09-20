@@ -37,7 +37,7 @@ public class Solution {
 		}
 		return root;
 	}
-	public void printList(TreeNode root) {
+	public void printTree(TreeNode root) {
 		if(root == null)  return ;
 		String printer = "";
 		Queue<TreeNode> q = new LinkedList<TreeNode>();
@@ -64,10 +64,10 @@ public class Solution {
 		String[] strs1 = sc.nextLine().split(",");
 		String[] strs2 = sc.nextLine().split(",");
 		TreeNode head1 = s.createTree(strs1), head2 = s.createTree(strs2);
-		s.printList(head1);
-		s.printList(head2);
+		s.printTree(head1);
+		s.printTree(head2);
 		TreeNode ans = s.mergeTrees(head1, head2);
-		s.printList(ans);
+		s.printTree(ans);
 	}
 
 }

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="app_preset_prof_preset_samplingRefreshRate_s">1000</entry>
+<entry key="app_preset_prof_preset_stacks_p">false</entry>
+<entry key="app_preset_prof_preset_selector"></entry>
+<entry key="app_preset_prof_preset_refreshRate_s">1000</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+<entry key="app_preset_prof_preset_alloc_p">10</entry>
+<entry key="app_preset_"></entry>
+<entry key="app_preset_prof_preset_filter_s"></entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">false</entry>
+<entry key="app_preset_prof_preset_runnables_p">true</entry>
+<entry key="profiler.settings.instrument.empty.methods">false</entry>
+<entry key="app_preset_prof_preset_name">Solution (20) Launch Configuration</entry>
+<entry key="app_preset_prof_preset_filterMode_s">true</entry>
+<entry key="app_preset_prof_preset_roots_p">_10_regularExpressionMatching.**
+_11_containerWithMostWater.**
+_12_integerToRoman.**
+_13_romanToInteger.**
+_15_3Sum.**
+_16_3SumClosest.**
+_17_letterCombinationsOfAPhoneNumber.**
+_18_4Sum.**
+_19_removeNthNodeFromEndOfList.**
+_1_twoSum.**
+_207_courseSchedule.**
+_20_validParentheses.**
+_21_mergeTwoSortedLists.**
+_22_generateParentheses.**
+_23_mergeKSortedLists.**
+_26_removeDuplicatesFromSortedArray.**
+_2_addTwoNumbers.**
+_376_wiggleSubsequence.**
+_3_longestSubstringWithoutRepeatingCharacters.**
+_416_partitionEqualSubsetSum.**
+_42_trappingRainWater.**
+_476_numberComplement.**
+_500_keyboardRow.**
+_547_friendCircles.**
+_557_reverseWordsInAStringIII.**
+_559_maximumDepthOfNAryTree.**
+_561_arrayPartitionI.**
+_566_reshapeTheMatrix.**
+_589_nAryTreePreorderTraversal.**
+_590_nAryTreePostorderTraversal.**
+_595_SQL_bigCountries.**
+_5_longestPalindromicSubstring.**
+_617_mergeTwoBinaryTrees.**
+_620_SQL_notBoringMovies.**
+_627_SQL_swapSalary.**
+_657_robotReturnToOrigin.**
+_682_baseballGame.**
+_6_zigzagConversion.**
+_700_searchInABinarySearchTree.**
+_709_toLowerCase.**
+_728_selfDividingNumbers.**
+_766_toeplitzMatrix.**
+_771_jewelsAndStones.**
+_7_reverseInteger.**
+_804_uniqueMorseCodeWords.**
+_806_numberOfLinesToWriteString.**
+_811_subdomainVisitCount.**
+_821_shortestDistanceToACharacter.**
+_832_flippingAnImage.**
+_852_peakIndexInAMountainArray.**
+_865_smallestSubtreewithAlltheDeepestNodes.**
+_867_transposeMatrix.**
+_868_binaryGap.**
+_872_leafSimilarTrees.**
+_876_middleOfTheLinkedList.**
+_883_projectionAreaOf3DShapes.**
+_884_uncommonWordsFromTwoSentences.**
+_893_groupsOfSpecialEquivalentStrings.**
+_905_sortArrayByParity.**
+_9_palindromeNumber.**
+commonUsed.**
+</entry>
+<entry key="app_preset_prof_preset_filter_p">_10_regularExpressionMatching.*,
+_11_containerWithMostWater.*,
+_12_integerToRoman.*,
+_13_romanToInteger.*,
+_15_3Sum.*,
+_16_3SumClosest.*,
+_17_letterCombinationsOfAPhoneNumber.*,
+_18_4Sum.*,
+_19_removeNthNodeFromEndOfList.*,
+_1_twoSum.*,
+_207_courseSchedule.*,
+_20_validParentheses.*,
+_21_mergeTwoSortedLists.*,
+_22_generateParentheses.*,
+_23_mergeKSortedLists.*,
+_26_removeDuplicatesFromSortedArray.*,
+_2_addTwoNumbers.*,
+_376_wiggleSubsequence.*,
+_3_longestSubstringWithoutRepeatingCharacters.*,
+_416_partitionEqualSubsetSum.*,
+_42_trappingRainWater.*,
+_476_numberComplement.*,
+_500_keyboardRow.*,
+_547_friendCircles.*,
+_557_reverseWordsInAStringIII.*,
+_559_maximumDepthOfNAryTree.*,
+_561_arrayPartitionI.*,
+_566_reshapeTheMatrix.*,
+_589_nAryTreePreorderTraversal.*,
+_590_nAryTreePostorderTraversal.*,
+_595_SQL_bigCountries.*,
+_5_longestPalindromicSubstring.*,
+_617_mergeTwoBinaryTrees.*,
+_620_SQL_notBoringMovies.*,
+_627_SQL_swapSalary.*,
+_657_robotReturnToOrigin.*,
+_682_baseballGame.*,
+_6_zigzagConversion.*,
+_700_searchInABinarySearchTree.*,
+_709_toLowerCase.*,
+_728_selfDividingNumbers.*,
+_766_toeplitzMatrix.*,
+_771_jewelsAndStones.*,
+_7_reverseInteger.*,
+_804_uniqueMorseCodeWords.*,
+_806_numberOfLinesToWriteString.*,
+_811_subdomainVisitCount.*,
+_821_shortestDistanceToACharacter.*,
+_832_flippingAnImage.*,
+_852_peakIndexInAMountainArray.*,
+_865_smallestSubtreewithAlltheDeepestNodes.*,
+_867_transposeMatrix.*,
+_868_binaryGap.*,
+_872_leafSimilarTrees.*,
+_876_middleOfTheLinkedList.*,
+_883_projectionAreaOf3DShapes.*,
+_884_uncommonWordsFromTwoSentences.*,
+_893_groupsOfSpecialEquivalentStrings.*,
+_905_sortArrayByParity.*,
+_9_palindromeNumber.*,
+commonUsed.*</entry>
+<entry key="app_preset_prof_preset_samplingRate_s">100</entry>
+<entry key="app_preset_prof_preset_filterMode_p">false</entry>
+<entry key="app_preset_prof_preset_memoryMode_p">true</entry>
+</properties>
