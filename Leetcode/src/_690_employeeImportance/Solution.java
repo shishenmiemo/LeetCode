@@ -14,16 +14,23 @@ public class Solution {
 	};
 	public int getImportance(List<Employee> employees, int id) {
 		Queue<Integer> q = new LinkedList<>();
-		Map<Integer, Integer> map = new HashMap<>();
-		for(int i = 0; i < employees.size(); i ++)  map.put(employees.get(i).id, employees.get(i).importance);
+		Map<Integer, Integer> mapIdImp = new HashMap<>();
+		Map<Integer, List<Integer>> mapIdSub = new HashMap<>();
+		for(int i = 0; i < employees.size(); i ++) {
+			mapIdImp.put(employees.get(i).id, employees.get(i).importance);
+			mapIdSub.put(employees.get(i).id, employees.get(i).subordinates);
+		}
+		int res = 0;
 		q.offer(id);
 		while(!q.isEmpty()) {
 			int cur = q.poll();
-			
+			res += mapIdImp.get(cur);
+			List<Integer> tmp = mapIdSub.get(cur);
+			for(int i = 0; i < tmp.size(); i ++) {
+				q.offer(tmp.get(i));
+			}
 		}
-		int res = map.get(id);
-		for(int i = 0; i < list.size(); i ++)
-			res += map.get(list.get(i));
+		
         return res;
     }
 	public static void main(String[] args) {
@@ -57,4 +64,19 @@ public class Solution {
 1
 
 11
+*/
+
+/*
+4
+1 5
+2 3
+2 3
+4
+3 4
+
+4 1
+
+1
+
+13
 */
